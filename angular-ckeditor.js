@@ -2,7 +2,7 @@
   // AMD
   if (typeof define === 'function' && define.amd) define(['angular'], factory);
   // Global
-  else factory(window.angular);
+  else factory(angular);
 }(this, function (angular) {
 
   angular

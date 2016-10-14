@@ -2,7 +2,7 @@
   "name": "angular-ckeditor",
   "version": "1.0.3",
   "description": "CKEditor directive for Angular.",
-  "main": "angular-ckeditor.js",
+  "main": "index.js",
   "scripts": {
     "test": "karma start --single-run"
   },
