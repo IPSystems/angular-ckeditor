@@ -1,9 +1,9 @@
-(function (root, factory) {
-  // AMD
-  if (typeof define === 'function' && define.amd) define(['angular'], factory);
-  // Global
-  else factory(angular);
-}(this, function (angular) {
+// (function (root, factory) {
+//   // AMD
+//   if (typeof define === 'function' && define.amd) define(['angular'], factory);
+//   // Global
+//   else factory(angular);
+// }(this, function (angular) {
 
   angular
   .module('ckeditor', [])
@@ -150,4 +150,4 @@
       });
     });
   }
-}));
+// }));
